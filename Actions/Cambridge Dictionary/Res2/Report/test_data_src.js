@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\ANKIT JOSHI\\Desktop\\Cambridge Dictionary\\Actions\\Cambridge Dictionary\\Res2',namePairs:[]}]};

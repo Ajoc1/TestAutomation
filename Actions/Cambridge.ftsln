@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0
+Project("") = "Cambridge Dictionary", "Cambridge Dictionary\Test.tsp", "51C9EB23-2858-466D-BD11-2439A92CFD6B"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\ANKIT JOSHI\Desktop\Cambridge Dictionary\Actions\Cambridge Dictionary\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		51C9EB23-2858-466D-BD11-2439A92CFD6B.Debug|Any CPU.Build.0 = Debug|Any CPU
+		51C9EB23-2858-466D-BD11-2439A92CFD6B.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		51C9EB23-2858-466D-BD11-2439A92CFD6B.Release|Any CPU.Build.0 = Release|Any CPU
+		51C9EB23-2858-466D-BD11-2439A92CFD6B.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

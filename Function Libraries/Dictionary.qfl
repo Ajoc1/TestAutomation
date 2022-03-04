@@ -1,0 +1,16 @@
+﻿'-----Invoking The website
+Public Function open_website
+ExecuteFile "C:\Users\ANKIT JOSHI\Desktop\Cambridge Dictionary\Locators\Constants.txt"
+DataTable.ImportSheet "C:\Users\ANKIT JOSHI\Desktop\Cambridge Dictionary\Test Data\Cambridge Test Data.xls", "Sheet1", "Global"
+       url="https://dictionary.cambridge.org/"
+       SystemUtil.Run "chrome",url
+       Reporter.Filter=rfEnableAll
+End Function
+
+'------Closing the website
+Public Function close_window
+DataTable.ExportSheet "C:\Users\ANKIT JOSHI\Desktop\Cambridge Dictionary\Test Data\Cambridge Test Data.xls", "Global", "Sheet1"
+	Browser("Cambridge Dictionary |").Page("Cambridge Dictionary |").sync
+	Browser("Cambridge Dictionary |").Close
+End Function
+

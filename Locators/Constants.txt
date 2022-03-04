@@ -1,0 +1,37 @@
+'Login
+Login="xpath:=//span[contains(text(),'Log in')]"
+EnterMail="xpath:=//body/div[@id='login']/div[@id='login_content']/div[@id='gigya-login-screen']/form[@id='gigya-login-form']/div[2]/div[3]/div[1]/input[1]"
+Pwd="xpath:=//body/div[@id='login']/div[@id='login_content']/div[@id='gigya-login-screen']/form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input[1]"
+LoginButton="xpath:=//body/div[@id='login']/div[@id='login_content']/div[@id='gigya-login-screen']/form[@id='gigya-login-form']/div[2]/div[3]/div[5]/input[1]"
+
+'Logo checkpoint
+FaceBook="xpath:=//body/footer[@id='footer']/div[1]/div[3]/div[1]/a[1]/i[1]"
+'WOTD
+WordOfTheDay="xpath:=//body/div[3]/div[2]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/div[3]/p[2]"
+About="xpath:=//a[contains(text(),'About this')]"
+WOTDMeaning="class:=ti fs fs12 lmb-0 hw superentry"
+
+'Search and Pronouncation
+SearchBox="xpath:=//input[@id='searchword']"
+SearchButton="xpath:=//body/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/span[1]/button[3]"
+Image101="xpath:=//body/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a[1]/amp-img[1]/img[1]"
+UK_acc="xpath:=//body/div[2]/div[1]/div[1]/div[2]/article[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/span[1]/span[2]/div[1]"
+US_acc="xpath:=//body/div[2]/div[1]/div[1]/div[2]/article[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/span[2]/span[2]/div[1]"
+
+'Translate
+DropButton="xpath:=//body/div[2]/div[1]/div[2]/div[4]/form[1]/div[3]/div[1]/div[1]/i[1]"
+Japanese="xpath:=//body/div[2]/div[1]/div[2]/div[4]/form[1]/div[3]/div[1]/div[2]/ul[1]/li[13]/a[1]"
+TextBox="xpath:=//textarea[@id='txtTrans']"
+TranslateButton="xpath:=//button[@id='button-submit']"
+
+'Grammar
+AdjAndAdv="xpath:=//a[contains(text(),'Adjectives and adverbs')]"
+ECW="xpath:=//a[contains(text(),'Easily confused words')]"
+PAndD="xpath:=//a[contains(text(),'Nouns, pronouns and determiners')]"
+Prop="xpath:=//a[contains(text(),'Prepositions and particles')]"
+UsingEnglish="xpath:=//a[contains(text(),'Using English')]"
+Verbs="xpath:=//a[contains(text(),'Verbs')]"
+WSAndC="xpath:=//a[contains(text(),'Words, sentences and clauses')]"
+
+'LogOut
+Logout="xpath:=//header/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]"
